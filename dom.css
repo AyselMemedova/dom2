@@ -1,0 +1,75 @@
+body{
+	padding-top: 20px;
+}
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+
+.btnSubmit{
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 8px 0;
+	border: none;
+	background-color: #17A2B8;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.btnEdit{
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	padding: 8px 0;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+	border:none;
+    cursor: pointer;
+    background: #117a8b;
+    color: #fff;
+    display: none;
+}
+
+.btnSubmit:hover{
+	background-color: #1d707d;
+
+}
+
+.table{
+	margin-top: 40px;
+	margin-left: 180px;
+	width: 250px;
+	
+}
+
+.editTd{
+	background-color: #17a2b8;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+.deletetTd{
+	background-color: #dc3545;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+}
+
